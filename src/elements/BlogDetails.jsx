@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
+import FooterTwo from "../component/footer/FooterTwo";
 
 class BlogDetails extends Component{
     constructor () {
@@ -31,7 +31,7 @@ class BlogDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="blog-single-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">The Home of the Future <br /> Could Bebes</h2>
+                                    <h2 className="title theme-gradient">The Home of tdde Future <br /> Could Bebes</h2>
                                     <ul className="blog-meta d-flex justify-content-center align-items-center">
                                         <li><FiClock />May 18, 2020</li>
                                         <li><FiUser />NipaBali</li>
@@ -152,7 +152,7 @@ class BlogDetails extends Component{
                 </div>
                 {/* End Back To Top */}
                 
-                {/* <Footer />  */}
+                <FooterTwo /> 
 
             </React.Fragment>
         )

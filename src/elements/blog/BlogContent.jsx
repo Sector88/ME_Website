@@ -1,35 +1,36 @@
 const BlogContent = [
     {
         images: '01',
-        title: ' Getting tickets to the big show',
-        category: 'Development'
+        title: 'Running the bulls, by formaBull',
+        category: 'Technology',
+        link: 'https://www.formabull.io/'
     },
     {
         images: '02',
-        title: 'A big ticket gone to be an interesting ',
-        category: 'Management'
+        title: ' formaBull and React Hook Form Library ',
+        category: 'Technology',
+        link: 'https://www.formabull.io/'
     },
 
     {
         images: '03',
-        title: 'The Home of the Future Could Bebes',
-        category: 'Design'
+        title: 'The Home of the bulls',
+        category: 'Technology',
+        link: 'https://www.formabull.io/'
     },
     {
         images: '04',
         title: ' Getting tickets to the big show',
-        category: 'Development'
+        category: '',
+        link: 'https://www.formabull.io/'
     },
     {
-        images: '01',
-        title: 'A big ticket gone to be an interesting ',
-        category: 'Management'
+        images: '05',
+        title: ' Getting tickets to the big show',
+        category: 'Development',
+        link: 'https://www.formabull.io/'
     },
-    {
-        images: '02',
-        title: 'The Home of the Future Could Bebes',
-        category: 'Design'
-    },
+    
 ]
 
 export default BlogContent;

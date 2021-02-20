@@ -54,15 +54,15 @@ class HeaderThree extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/MarioEldin_Logo.png" alt="Digital Agency" />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/MarioEldin_Logo.jpg" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/MarioEldin_Logo.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-dark'){
             logoUrl = <img src="/assets/images/logo/MarioEldin_Logo.png" alt="Digital Agency" />;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/MarioEldin_Logo.png" alt="Digital Agency" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/MarioEldin_Logo.png" alt="Digital Agency" />;
         }
         
         return(
@@ -78,7 +78,6 @@ class HeaderThree extends Component{
                             <Scrollspy className="mainmenu" items={['home','about','writing','contact']} currentClassName="is-current" offset={-200}>
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#about">About</a></li>
-                                {/* <li><a href="#service">Service</a></li> */}
                                 <li><a href="#writing">Writing</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </Scrollspy>

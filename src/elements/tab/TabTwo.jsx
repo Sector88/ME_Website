@@ -28,25 +28,25 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a> <span>Javascript</span></a>
+                                                  <span className="experience-text">Javascript</span>
                                                 </li>
                                                 <li>
-                                                    <a><span>React</span></a>
+                                                  <span className="experience-text">React</span>
                                                 </li>
                                                 <li>
-                                                    <a>Node<span></span></a>
+                                                  <span className="experience-text">Node</span>
                                                 </li>
                                                 <li>
-                                                    <a>Express<span></span></a>
+                                                  <span className="experience-text">Express</span>
                                                 </li>
                                                 <li>
-                                                    <a>Redux<span></span></a>
+                                                  <span className="experience-text">Redux</span>
                                                 </li>
                                                 <li>
-                                                    <a>Databases<span></span></a>
+                                                  <span className="experience-text">Databases</span>
                                                 </li>
                                                 <li>
-                                                    <a>UI/UX Design<span></span></a>
+                                                  <span className="experience-text">UI/UX Design</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -56,10 +56,10 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">NYSBPC Regionals <span>- 1st Place</span></a> 2016
+                                                 <span className="experience-text">NYSBPC Regionals </span><span> - 1st Place</span><br /> 2016
                                                </li>
                                                <li>
-                                                   <a href="/service">NYSBPC Finals <span>- Top 5 Tech Award</span></a> 2016
+                                                 <span className="experience-text">NYSBPC Finals </span><span> - Top 5 Tech Award</span><br /> 2016
                                                </li>
                                            </ul>
                                        </div>
@@ -71,20 +71,23 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a>Software Engineer<span> - formaBull</span></a> 2020 - Present
+                                                <span className="experience-text">Software Engineer</span><span> - formaBull</span><br />
+                                                2020 - Present
                                                </li>
                                                <li>
-                                                   <a>Software Engineer<span> - The Green Pup</span></a> 2012 - 2020
+                                                <span className="experience-text">Software Engineer</span><span> - The Green Pup</span><br />
+                                                2012 - 2020
                                                </li>
                                                <li>
-                                                   <a>Software Engineer<span> - Brain Kandy NYC </span></a> 2012- 2017
+                                                <span className="experience-text">Software Engineer</span><span> - Brain Kandy NYC </span><br />
+                                                2012- 2017
                                                </li>
                                                <li>
-                                                   <a>Open Source Contribution<br />
-                                                   <span>- FitLyfe | Trainer & Trainee Management App<br />
-                                                   2021 - Present<br />
-                                                   - Study Buddy | COVID-19 Student Study Support
-                                                   </span></a> 2020 - 2021
+                                                <span className="experience-text">Open Source Contribution</span><br />
+                                                <span>- FitLyfe | Trainer & Trainee Management App</span><br />
+                                                2021 - Present<br />
+                                                <span>- Study Buddy | COVID-19 Student Study Support</span><br /> 
+                                                2020 - 2021
                                                </li>
                                            </ul>
                                        </div>
@@ -94,7 +97,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a>B.A, Advertising and Technology<span> | New York Institute of Technology, Manhattan, NY</span></a> 2016
+                                               <span className="experience-text">B.A, Advertising and Technology</span><span> | New York Institute of Technology, Manhattan, NY</span><br /> 2016
                                                </li>
                                            </ul>
                                        </div>

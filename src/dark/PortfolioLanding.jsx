@@ -2,7 +2,6 @@ import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
-import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
@@ -24,7 +23,7 @@ const PortfolioLanding = () => {
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
-            <Helmet pageTitle="Portfolio Landing" />
+            <Helmet pageTitle="Mario Eldin" />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
@@ -86,28 +85,6 @@ const PortfolioLanding = () => {
             
             {/* End About Area */}
 
-            {/* Start Service Area  */}
-            {/* <div id="service" className="fix">
-                <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">My Awesome Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row creative-service">
-                            <div className="col-lg-12">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div> */}
-            {/* End Service Area  */} 
-
             {/* Start Blog Area */}
             <div id="writing" className="fix">
                 <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
@@ -125,15 +102,18 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="/blog-details">
+                                            {/* TODO: href use to equal to "/blog-details" */}
+                                            <a href={value.link}>
                                                 <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
                                             </a>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
+                                            {/* TODO: href use to equal to "/blog-details" */}
+                                            <h4 className="title"><a href={value.link}>{value.title}</a></h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
+                                                {/* TODO: href use to equal to "/blog-details" */}
+                                                <a className="rn-btn text-white" href={value.link}>Read More</a>
                                             </div>
                                         </div>
                                     </div>
